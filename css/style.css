@@ -18,16 +18,44 @@ a{
 
 .wrapper{
     background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
-    height: 600px;
+    height: 100vh;
 }
 
 .navbar-logo-link{
     display: flex;
+    align-items: center;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 30px 0;
+}
+
+
+.navbar-logo-link p {
+    margin-left: 20px;
+    color: white;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    color: white;
+}
+
+.navbar-list li > a{
+    color: white;
+}
+
+.navbar-btn{
+    padding: 10px;
+    border: 1.5px solid #FFFFFF 20px;
+    color: white;
+    background-color: transparent;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50px;
 }
