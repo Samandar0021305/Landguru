@@ -59,3 +59,31 @@ a{
     border: 1.5px solid #FFFFFF;
     border-radius: 50px;
 }
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-img{
+    width: 100%;
+    display: flex;
+}
+
+.header-item h2{
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 100px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    width: 600px;
+}
+
+.header-item p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 42px;
+    color: #FFFFFF;
+    width: 500px;
+}
